@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import smtplib
+import time.sleep
 
 # *********************CHANGE THIS*************************
 # *********************************************************
@@ -15,6 +16,8 @@ URL = '$amazon_flipkart_url_here'
 
 MY_BUDGET = 360
 # the price on which you want the notification
+mins = 60
+# time after you want to check again
 
 sender_mail = 'sender@gmail.com'
 sender_mail_password = "################"
@@ -107,5 +110,6 @@ def send_mail(message):
     server.quit()
 
 
-
-check_price()
+while True:
+    check_price()
+    time.sleep(60 * mins)
