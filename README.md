@@ -16,7 +16,10 @@ URL = https://www.amazon.in/HONOR-Band-5-Meteorite-Black/dp/B07WTHFBQS/ref=sr_1_
 MY_BUDGET = 1899
 ```
 * **mins**: Time after which you want to re-run the script
-* **sender_mail_password**: Use app passwords (create a 16 character separate password for this app) [Link](https://myaccount.google.com/apppasswords)
+* **sender_mail_password**:  You can do either one of 2 things here:
+1. If you are not using 2-factor authentication: Apply for [this](https://myaccount.google.com/lesssecureapps)
+2. If you want to use separate password for this script or you are already a 2-factor user: First go [here](https://myaccount.google.com/signinoptions/two-step-verification) to apply for 2-factor authentication. Then:
+Use app passwords (create a 16 character separate password for this app) [Link](https://myaccount.google.com/apppasswords)
 * **Other Parameters**: 
 ```
 sender_mail = 'sender@gmail.com'
