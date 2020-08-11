@@ -1,6 +1,6 @@
 # Amazon-Flipkart Price Tracker Script
-Python code to notify you when product price gets lower than a certian amount.
-![Example](/assets/images/tux.png)
+Python code to notify you when product price gets lower than a certian amount.  
+![Example](https://raw.githubusercontent.com/imsahil007/amazon-flipkart-price-script/master/example.png)
 ___
 ## Parameters:
 * **USER_AGENT**: Google 'my user agent' and copy the text
